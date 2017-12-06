@@ -12,8 +12,10 @@ class MainActivity : AppCompatActivity() {
 
         val dog = Dog("わんこ", 10, "おとなしい性格")
         val cat = Cat("にゃんこ", 13, "名前はまだない")
+        val penguin = Penguin("ペンペン", 15, "冷蔵庫がすきです")
 
         Toast.makeText(this, dog.name, Toast.LENGTH_LONG).show()
         Toast.makeText(this, cat.name, Toast.LENGTH_LONG).show()
+        Toast.makeText(this, penguin.name, Toast.LENGTH_LONG).show()
     }
 }
